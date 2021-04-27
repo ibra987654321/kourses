@@ -6,7 +6,7 @@ body {
   font-weight: 300;
   line-height: 25px;
   color: #fff;
-  background-color: #282828;
+  background:linear-gradient(90deg, #000,#313336,#000);
   font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -582,6 +582,7 @@ border-radius: 30px;
   .list3{ display: none !important;}
   .logo{ width: 229px !important;height: 72px;}
   .machta3{ top: 0 !important;}
+  .section h1{font-size: 35px !important;}
 }
 
 /* на телефоне */
