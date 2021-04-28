@@ -48,7 +48,7 @@ h4,
 
 p {
   font-size: 18px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 ul {
@@ -582,7 +582,11 @@ border-radius: 30px;
   .list3{ display: none !important;}
   .logo{ width: 229px !important;height: 72px;}
   .machta3{ top: 0 !important;}
+  .bg-list{ width: 100% !important;}
   .section h1{font-size: 35px !important;}
+  .elem_block{flex-direction: column !important;}
+  .ellipse1 img{width: 355px !important;}
+  .testimonial-block img{display: none !important;}
 }
 
 /* на телефоне */
@@ -597,6 +601,9 @@ border-radius: 30px;
 }
 .ellipse1{
   position: relative;
+}
+.ellipse1 img{
+  width: 400px;
 }
 .ellipse1 svg{
   position: absolute;
@@ -645,6 +652,11 @@ border-radius: 30px;
   left: 0;
   top: 200px;
   z-index: 1;
+}
+.bg-list{
+  position: absolute;
+  left: 0;
+  top: 450px;
 }
 .paraf{
   font-size: 25px;
@@ -709,3 +721,8 @@ border-radius: 30px;
   line-height: 30px;
   padding: 20px;
 }
+
+.hamburger:hover{
+  cursor: pointer;
+}
+
